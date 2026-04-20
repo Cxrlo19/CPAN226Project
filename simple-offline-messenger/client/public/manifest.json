@@ -1,0 +1,17 @@
+{
+  "name": "Secure Offline Messenger",
+  "short_name": "Messenger",
+  "description": "An offline-first, secure PWA messenger with end-to-end encryption",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#1e1e1e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
