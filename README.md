@@ -62,16 +62,3 @@ The Node.js server is architected to serve the optimized production build of the
 *   **Data Persistence**: `localStorage` utilized for persistent offline message storage.
 *   **Security Standards**: PBKDF2 for key derivation; AES-GCM for 256-bit data encryption.
 
----
-
-## 5. Certification and Requirements Fulfillment
-
-This project successfully implements the following networking and security components:
-*   **Socket Programming**: Native WebSocket integration for persistent connections.
-*   **Network Protocols**: WebSocket over TCP (optimized for reliability over UDP/MQTT).
-*   **Data Encapsulation**: Structured data flow (Raw Text -> JSON -> Encrypted Ciphertext -> WS Frame).
-*   **PWA Standards**: Service Worker integration for offline independence.
-*   **Data Integrity**: Automated queueing and synchronization protocols for high-latency environments.
-*   **Security Controls**: Zero-Trust architecture ensures encrypted payloads are unintelligible to the server.
-
----
